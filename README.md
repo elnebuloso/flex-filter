@@ -1,4 +1,4 @@
 flex-filter
 ===========
 
-different filters, easy to use
+different filter, easy to use
