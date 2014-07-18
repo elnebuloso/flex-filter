@@ -17,9 +17,9 @@ class MinifyHtmlTest extends \PHPUnit_Framework_TestCase {
     public function test_filter() {
         $expexted = "<html><foo></foo><foo>baz</foo><bar>bla blubb</bar><bar>bla blubb</bar></html>";
 
-        $html = "<html> <foo>    </foo>      <foo>   baz     </foo>
+        $html = "<!-- my comment --><html> <foo>    </foo>      <foo>   baz     </foo>
         	<bar>   bla blubb     </bar>
-        		<bar>  bla   blubb</bar>
+        		<bar>  bla   blubb</bar><!-- my comment -->
         	</html>";
 
         $filter = new MinifyHtml();
