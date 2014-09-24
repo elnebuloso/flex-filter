@@ -12,9 +12,9 @@ use Flex\Filter\MinifyHtml;
 class MinifyHtmlTest extends \PHPUnit_Framework_TestCase {
 
     /**
-     * @return void
+     * @test
      */
-    public function test_filter() {
+    public function filter() {
         $expexted = "<html><foo></foo><foo>baz</foo><bar>bla blubb</bar><bar>bla blubb</bar></html>";
 
         $html = "<!-- my comment --><html> <foo>    </foo>      <foo>   baz     </foo>
