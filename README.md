@@ -1,8 +1,26 @@
-flex-filter
-===========
+# flex-filter
 
-[![Build Status](https://travis-ci.org/elnebuloso/flex-filter.svg?branch=master)](https://travis-ci.org/elnebuloso/flex-filter)
-[![Coverage Status](https://img.shields.io/coveralls/elnebuloso/flex-filter.svg)](https://coveralls.io/r/elnebuloso/flex-filter?branch=master)
-[![License](https://poser.pugx.org/elnebuloso/flex-filter/license.svg)](https://packagist.org/packages/elnebuloso/flex-filter)
+[![Build Status](https://img.shields.io/travis/elnebuloso/flex-filter/master.svg?style=flat-square)](https://travis-ci.org/elnebuloso/flex-filter)
+[![Software License](https://img.shields.io/packagist/l/elnebuloso/flex-filter.svg?style=flat-square)](LICENSE)
 
-different filter, easy to use
+## Installation / Usage
+
+Via Composer
+
+``` json
+{
+    "require": {
+        "elnebuloso/flex-filter": "~2.0"
+    }
+}
+```
+
+## Requirements
+
+The following versions of PHP are supported by this version.
+
+* PHP 5.3
+* PHP 5.4
+* PHP 5.5
+* PHP 5.6
+* HHVM

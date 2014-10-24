@@ -4,7 +4,6 @@ namespace Flex\Filter;
 /**
  * Class MinifyHtml
  *
- * @package Flex\Filter
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 class MinifyHtml {

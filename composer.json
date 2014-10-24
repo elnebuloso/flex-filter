@@ -16,9 +16,6 @@
     "require": {
         "php": "~5.3"
     },
-    "require-dev": {
-        "satooshi\/php-coveralls": "dev-master"
-    },
     "autoload": {
         "psr-0": {
             "Flex\\": "src\/"
