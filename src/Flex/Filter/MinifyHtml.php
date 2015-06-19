@@ -6,7 +6,8 @@ namespace Flex\Filter;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class MinifyHtml {
+class MinifyHtml
+{
 
     /**
      * return filtered html
@@ -16,18 +17,23 @@ class MinifyHtml {
      * @param string $html
      * @return string
      */
-    public function filter($html) {
-        $html = preg_replace(array(
-            '/ {2,}/',
-            '/<!--.*?-->|\t|(?:\r?\n[ \t]*)+/s',
-            '/>\s*/',
-            '/\s*</'
-        ), array(
-            ' ',
-            '',
-            '>',
-            '<'
-        ), $html);
+    public function filter($html)
+    {
+        $html = preg_replace(
+            array(
+                '/ {2,}/',
+                '/<!--.*?-->|\t|(?:\r?\n[ \t]*)+/s',
+                '/>\s*/',
+                '/\s*</'
+            ),
+            array(
+                ' ',
+                '',
+                '>',
+                '<'
+            ),
+            $html
+        );
 
         return $html;
     }

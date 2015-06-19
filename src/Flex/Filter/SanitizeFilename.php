@@ -6,17 +6,19 @@ namespace Flex\Filter;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class SanitizeFilename {
+class SanitizeFilename
+{
 
     /**
      * @param string $filename
      * @return string
      */
-    public function filter($filename) {
+    public function filter($filename)
+    {
         $extension = pathinfo($filename, PATHINFO_EXTENSION);
 
         // remove possible suffix from path
-        if(!empty($extension) && !preg_match('/\s/', $extension)) {
+        if (!empty($extension) && !preg_match('/\s/', $extension)) {
             $filename = substr($filename, 0, strrpos($filename, "."));
         }
 
@@ -31,7 +33,7 @@ class SanitizeFilename {
         $filename = str_replace(' ', '-', $filename);
         $filename = strtolower($filename);
 
-        if(!empty($extension) && !preg_match('/\s/', $extension)) {
+        if (!empty($extension) && !preg_match('/\s/', $extension)) {
             $filename .= ".$extension";
         }
 
