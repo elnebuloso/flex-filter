@@ -8,12 +8,14 @@ use Flex\Filter\SanitizeFilename;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class SanitizeFilenameTest extends \PHPUnit_Framework_TestCase {
+class SanitizeFilenameTest extends \PHPUnit_Framework_TestCase
+{
 
     /**
      * @test
      */
-    public function test_filter_withExtension() {
+    public function testFilterWithExtension()
+    {
         $filename = '../../The Quick-Brown-Fox with Number 123 !   ! ---- jumps ../../ over .jpg the river.jpg';
 
         $filter = new SanitizeFilename();
@@ -23,7 +25,8 @@ class SanitizeFilenameTest extends \PHPUnit_Framework_TestCase {
     /**
      * @test
      */
-    public function test_filter_withoutExtension() {
+    public function testFilterWithoutExtension()
+    {
         $filename = '../../The Quick-Brown-Fox with Number 123 !   ! ---- jumps ../../ over .jpg the river';
 
         $filter = new SanitizeFilename();
