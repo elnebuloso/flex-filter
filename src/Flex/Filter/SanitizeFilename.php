@@ -8,7 +8,6 @@ namespace Flex\Filter;
  */
 class SanitizeFilename
 {
-
     /**
      * @param string $filename
      * @return string

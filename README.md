@@ -6,7 +6,6 @@
 
 The following versions of PHP are supported by this version.
 
-* PHP 5.3
 * PHP 5.4
 * PHP 5.5
 * PHP 5.6
@@ -24,7 +23,7 @@ Via Composer
 ``` json
 {
     "require": {
-        "elnebuloso/flex-filter": "~2.0"
+        "elnebuloso/flex-filter": "~3.0"
     }
 }
 ```

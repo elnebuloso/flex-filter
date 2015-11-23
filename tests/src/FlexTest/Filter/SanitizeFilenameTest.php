@@ -10,7 +10,6 @@ use Flex\Filter\SanitizeFilename;
  */
 class SanitizeFilenameTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @test
      */

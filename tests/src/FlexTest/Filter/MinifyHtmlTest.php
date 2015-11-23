@@ -10,7 +10,6 @@ use Flex\Filter\MinifyHtml;
  */
 class MinifyHtmlTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @test
      */

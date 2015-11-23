@@ -8,7 +8,6 @@ namespace Flex\Filter;
  */
 class MinifyHtml
 {
-
     /**
      * return filtered html
      * this removes about 30% of the page size by turning your html into
@@ -20,18 +19,18 @@ class MinifyHtml
     public function filter($html)
     {
         $html = preg_replace(
-            array(
+            [
                 '/ {2,}/',
                 '/<!--.*?-->|\t|(?:\r?\n[ \t]*)+/s',
                 '/>\s*/',
-                '/\s*</'
-            ),
-            array(
+                '/\s*</',
+            ],
+            [
                 ' ',
                 '',
                 '>',
-                '<'
-            ),
+                '<',
+            ],
             $html
         );
 
