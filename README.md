@@ -1,6 +1,7 @@
 # flex-filter
 
 [![Build Status](https://travis-ci.org/elnebuloso/flex-filter.svg?branch=master)](https://travis-ci.org/elnebuloso/flex-filter)
+[![Coverage Status](https://coveralls.io/repos/github/elnebuloso/flex-filter/badge.svg?branch=master)](https://coveralls.io/github/elnebuloso/flex-filter?branch=master)
 
 ## Requirements
 
