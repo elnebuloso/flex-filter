@@ -1,5 +1,5 @@
 <?php
-namespace Flex\Filter;
+namespace elnebuloso\Flex\Filter;
 
 /**
  * Class SanitizeFilename

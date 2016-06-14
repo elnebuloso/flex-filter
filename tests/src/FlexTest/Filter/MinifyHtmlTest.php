@@ -1,14 +1,15 @@
 <?php
-namespace FlexTest\Filter;
+namespace elnebuloso\FlexTest\Filter;
 
-use Flex\Filter\MinifyHtml;
+use elnebuloso\Flex\Filter\MinifyHtml;
+use PHPUnit_Framework_TestCase;
 
 /**
  * Class MinifyHtmlTest
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class MinifyHtmlTest extends \PHPUnit_Framework_TestCase
+class MinifyHtmlTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @test

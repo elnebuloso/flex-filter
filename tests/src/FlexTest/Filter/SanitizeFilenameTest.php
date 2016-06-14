@@ -1,14 +1,15 @@
 <?php
-namespace FlexTest\Filter;
+namespace elnebuloso\FlexTest\Filter;
 
-use Flex\Filter\SanitizeFilename;
+use elnebuloso\Flex\Filter\SanitizeFilename;
+use PHPUnit_Framework_TestCase;
 
 /**
  * Class SanitizeFilenameTest
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class SanitizeFilenameTest extends \PHPUnit_Framework_TestCase
+class SanitizeFilenameTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @test
