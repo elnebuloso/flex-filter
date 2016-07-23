@@ -7,11 +7,9 @@
 
 The following versions of PHP are supported by this version.
 
-* PHP 5.4
-* PHP 5.5
 * PHP 5.6
 * PHP 7.0
-* HHVM
+* HHVM (optional)
 
 ## Coding Standards
 
@@ -24,7 +22,7 @@ Via Composer
 ``` json
 {
     "require": {
-        "elnebuloso/flex-filter": "~4.0"
+        "elnebuloso/flex-filter": "^5.0"
     }
 }
 ```
